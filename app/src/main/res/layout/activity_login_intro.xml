@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtLoginSubHeader"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="284dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/laila"
+        android:text="Ready To Use That Brain?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLoginHeader"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/laila"
+        android:text="Quiz Planet"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtLoginSubHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+
+        android:id="@+id/btnGetStarted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_primary"
+        android:fontFamily="@font/laila"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtLoginSubHeader"
+        app:layout_constraintStart_toStartOf="@+id/txtLoginSubHeader"
+        app:layout_constraintTop_toBottomOf="@+id/txtLoginSubHeader" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="90dp"-->
+    <!--        android:layout_height="83dp"-->
+    <!--        app:srcCompat="@drawable/fp_image1"-->
+    <!--        tools:layout_editor_absoluteX="40dp"-->
+    <!--        tools:layout_editor_absoluteY="510dp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView5"-->
+    <!--        android:layout_width="108dp"-->
+    <!--        android:layout_height="136dp"-->
+    <!--        app:srcCompat="@drawable/fp_image3"-->
+    <!--        tools:layout_editor_absoluteX="151dp"-->
+    <!--        tools:layout_editor_absoluteY="137dp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView6"-->
+    <!--        android:layout_width="95dp"-->
+    <!--        android:layout_height="87dp"-->
+    <!--        app:srcCompat="@drawable/fp_img4"-->
+    <!--        tools:layout_editor_absoluteX="293dp"-->
+    <!--        tools:layout_editor_absoluteY="506dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
