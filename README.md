@@ -3,6 +3,9 @@
 ## Introduction
 Quiz Planet is an engaging Android application designed to provide a fun and educational quiz experience across various categories. This app targets users who are keen on both entertainment and learning. By separating the design and code, the architecture of the app is structured to be robust and maintainable.
 
+### Programming Languages
+This project is developed using **Java** and **Kotlin**, leveraging the strengths of both languages to provide a seamless and efficient application performance.
+
 ### Title and Introduction
 <img width="200" alt="Title and Introduction" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/eddad993-8ccf-4ecf-8a58-a705a61f08ab">
 
