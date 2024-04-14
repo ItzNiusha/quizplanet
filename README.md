@@ -3,6 +3,13 @@
 ## Introduction
 Quiz Planet is an engaging Android application designed to provide a fun and educational quiz experience across various categories. This app targets users who are keen on both entertainment and learning. By separating the design and code, the architecture of the app is structured to be robust and maintainable.
 
+<img width="145" alt="image" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/eddad993-8ccf-4ecf-8a58-a705a61f08ab">
+<img width="153" alt="image" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/c443d729-80f8-4809-91c4-12c91ab669a2">
+<img width="137" alt="image" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/053d205f-344f-4b95-9298-6574e63600c9">
+
+
+
+
 ## Features
 - **User Authentication**: Users can create accounts using their email addresses and passwords.
 - **Quiz Categories**: Users can choose from multiple quiz categories, each with its own time limit.
