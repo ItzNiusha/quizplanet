@@ -8,7 +8,7 @@ Quiz Planet is an engaging Android application designed to provide a fun and edu
 
 ### Login and Sign Up
 <img width="200" alt="Login Page" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/c443d729-80f8-4809-91c4-12c91ab669a2">
-<img width="200" alt="Sign Up Page" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/053d205f-344f-4b95-9298-6574e63600c9">
+<img width="180" alt="Sign Up Page" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/053d205f-344f-4b95-9298-6574e63600c9">
 
 ### Main Page
 <img width="200" alt="Main Page" src="https://github.com/NiushaSh/Quiz-Planet-App/assets/166985686/bb59cd6e-383d-4ca2-81d1-4b04ef945356">
