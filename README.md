@@ -53,14 +53,6 @@ git clone https://github.com/NiushaSh/Quiz-Planet-App.git
 ## Usage
 To use the app, start by signing up with your email and password. Once logged in, you will be presented with various quiz categories to choose from. Select a category and start the quiz. After completing a quiz, the results page will show your score and percentage of correct answers.
 
-## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## Credits
 - **Niusha Shahrivar**
