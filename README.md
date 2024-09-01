@@ -33,22 +33,6 @@ This project is developed using **Java** and **Kotlin**, leveraging the strength
 - **Clean Code Principles**: The project adheres to clean code principles for better readability and maintainability.
 - **Interactive UI**: The user interface is designed using XML, providing an aesthetic and user-friendly experience.
 
-## Getting Started
-To set up this project locally, follow these steps:
-
-1. **Clone the repository**
-git clone https://github.com/NiushaSh/Quiz-Planet-App.git
-
-3. **Open the project in Android Studio**
-- Launch Android Studio.
-- Choose 'Open an existing Android Studio project'.
-- Navigate to the directory where the project is cloned and select it.
-
-3. **Build the project**
-- Build > Rebuild Project.
-
-4. **Run the application**
-- Run > Run 'app'.
 
 ## Usage
 To use the app, start by signing up with your email and password. Once logged in, you will be presented with various quiz categories to choose from. Select a category and start the quiz. After completing a quiz, the results page will show your score and percentage of correct answers.
@@ -56,4 +40,5 @@ To use the app, start by signing up with your email and password. Once logged in
 
 ## Credits
 - **Niusha Shahrivar**
+- **Kevin Saffo*
 
