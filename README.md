@@ -40,5 +40,5 @@ To use the app, start by signing up with your email and password. Once logged in
 
 ## Credits
 - **Niusha Shahrivar**
-- **Kevin Saffo*
+- **Kevin Saffo**
 
