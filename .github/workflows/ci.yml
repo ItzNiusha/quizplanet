@@ -1,0 +1,42 @@
+name: Java CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up JDK 17 (or whichever version you are using)
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin' # This can be 'zulu', 'adopt', 'temurin', etc.
+        java-version: '17'      # Use the appropriate Java version
+
+    # Step 3: Cache Gradle dependencies to speed up the build
+    - name: Cache Gradle dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle
+
+    # Step 4: Build the project using Gradle
+    - name: Build with Gradle
+      run: ./gradlew build
+
+    # Step 5: Run tests
+    - name: Run tests
+      run: ./gradlew test
