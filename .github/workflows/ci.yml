@@ -30,8 +30,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle
 
-      - name: Build with Gradle
-        run: ./gradlew build
+      - name: Build without deployment
+        run: ./gradlew build -x deploy -x publish
 
       - name: Run tests
         run: ./gradlew test
